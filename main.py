@@ -4,7 +4,7 @@ def main():
     accOpen=" "
     commonIssue=["Account Issues","Fund Transfering","Card Issues","Other"]
     options=["Open a new Account","Report an Issue","Contact a Human Representative","Exit"]
-    print("---------------------------------------------------")
+    print("--------------------------------------------------- ")
     print("First National Bank System:")
     for word in options:
         print(str(i)+"."+word)
