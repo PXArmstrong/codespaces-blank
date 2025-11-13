@@ -4,6 +4,7 @@ def main():
     accOpen=" "
     commonIssue=["Account Issues","Fund Transfering","Card Issues","Other"]
     options=["Open a new Account","Report an Issue","Contact a Human Representative","Exit"]
+    print("---------------------------------------------------")
     print("First National Bank System:")
     for word in options:
         print(str(i)+"."+word)
@@ -64,4 +65,4 @@ if(len(account_id)>7 or len(account_id)<7):
     quit
 while num<0:
     main()
-#Runs the code until the user selects to exit or gets "redirected" somewher else
+#Runs the code until the user selects to exit or gets "redirected" somewhere else
